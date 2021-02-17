@@ -37,10 +37,8 @@ AFRAME.registerComponent("markerhandler", {
     ratingButton.addEventListener("click", function() {
       swal({
         icon: "warning",
-        title: "Rating Dish",
-        text: "Work In Progress",
-        timer: 2000,
-        showConfirmButton: false
+        title: "Rate Dish",
+        text: "Work In Progress"
       });
     });
 
@@ -48,9 +46,7 @@ AFRAME.registerComponent("markerhandler", {
       swal({
         icon: "https://i.imgur.com/4NZ6uLY.jpg",
         title: "Thanks For Order !",
-        text: "Your order will serve soon on your table!",
-        timer: 2000,
-        showConfirmButton: false
+        text: "Your order will serve soon on your table!"
       });
     });
   },

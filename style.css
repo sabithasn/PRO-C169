@@ -12,3 +12,8 @@ button {
   z-index: 1;
   border: 2px soild black;
 }
+
+.swal-icon img{
+  width: 80px;
+  height: 80px;
+}
